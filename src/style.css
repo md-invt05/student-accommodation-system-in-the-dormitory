@@ -1,0 +1,43 @@
+.box{
+    background-color: #1A237E;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+} 
+.box h1{
+    padding-top: 30px;
+    
+}
+.Form{
+    border: solid white;
+    min-height: 400px;
+    min-width: 440px;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Form .TextField{
+    margin  : 30px;
+}
+.Form h2{
+    color: black;
+    margin-top: 0;
+}
+.Link{
+    text-decoration: none;
+    color: inherit;
+}
+.Toolbar{
+    background-color: #1A237E;
+    text-align: center;
+}
+h1{
+    font-size: 24px;
+}
