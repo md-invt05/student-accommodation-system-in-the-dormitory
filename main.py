@@ -18,7 +18,7 @@ def add_student(data):
                 МестоРождения,АдресПроживания,Фамилия,Отчество)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """
-        cursor.execute(insert_student, data)  # Use execute() instead of executemany() since there's only one set of values
+        cursor.execute(insert_student, data)
         mydb.commit()
 
 #delete data
